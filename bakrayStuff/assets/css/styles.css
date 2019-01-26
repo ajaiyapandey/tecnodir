@@ -1,0 +1,54 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background-image: url("../../assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 300px) {
+  #promo.jumbotron {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #promo {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron.jumbotron-fluid.border.rounded.border-light.shadow-sm {
+    max-width: 200px;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4998;
+  background: #ffffff;
+}
+
+.site-section {
+}
+
+#why-div-id {
+  /*bckground-color: #lightblack;*/
+}
+
+.fa.fa-birthday-cake {
+  color: #rgb(123,38,84);
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.jumbotron.jumbotron-fluid.border.rounded.border-light.shadow-sm {
+}
+
